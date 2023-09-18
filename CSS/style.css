@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn {
+  border-radius: 5px;
+  border: solid #f8f5f5 2px;
+}
+.btn:hover {
+  background-color: #19ddc4;
+  color: white;
+  transition: 0.3s;
+}
+
+.header-section {
+  width: 100%;
+  height: 80px;
+  border-bottom: solid #f0eaea 2px;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-nav ul li {
+  display: inline;
+  padding-right: 50px;
+}
+.left-nav ul li a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.left-nav ul li a:hover {
+  color: black;
+}
+.navbar {
+  margin: 0px 60px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.btn-signIn {
+  width: 90px;
+  height: 36px;
+  background-color: white;
+  border: solid #f8f5f5 2px;
+  border-radius: 5px;
+}
+.btn-signIn:hover {
+  color: #19ddc4;
+  transition: 0.3s;
+}
+
+.btn-subscribe {
+  width: 100px;
+  height: 36px;
+  background-color: #19ddc4;
+  border: solid #f8f5f5 2px;
+  color: white;
+  border-radius: 5px;
+}
+.btn-subscribe:hover {
+  background-color: #52aea1;
+  transition: 0.3s;
+}
+
+.fa-search {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+.cover-photo {
+  background-image: url("https://img.freepik.com/free-vector/mandala-illustration_53876-75291.jpg?size=626&ext=jpg&ga=GA1.1.123665211.1695015158&semt=sph");
+  height: 600px;
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+.cover-txt {
+  text-align: center;
+  margin-top: -300px;
+  color: white;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+.card-section {
+  margin: auto;
+  margin-top: 250px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  line-height: 2rem;
+}
+.card-section h3,
+p {
+  text-align: center;
+  padding: 10px;
+}
+.card-hover:hover {
+  cursor: pointer;
+  color: #19ddc4;
+}
+.card {
+  border: solid #f8f5f5 2px;
+}
+.card p {
+  color: #999999;
+}
+.page-section {
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+.page-section button {
+  width: 140px;
+  height: 35px;
+  background-color: white;
+}
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 40px;
+}
+.profile img {
+  border-radius: 100%;
+}
+.profile {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  /* border:solid #ddd 2px; */
+  border-top: solid #f9f0f0 2px;
+  color: #999999;
+}
+.footer {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.footer-btn {
+  line-height: 2rem;
+}
+.top-btn button {
+  width: 100px;
+  height: 25px;
+}
+.bottom-btn button {
+  width: 74px;
+  height: 25px;
+}
+.input-email {
+  font-size: larger;
+  height: 34px;
+  border: solid #f8f5f5 2px;
+}
+::placeholder {
+  color: #999999;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #19ddc4;
+}
+
+.text-widgets {
+  line-height: 1.5rem;
+}
+.footer-nav ul li a {
+  text-decoration: none;
+  color: #999999;
+}
+.footer-nav ul li a:hover {
+  color: #19ddc4;
+  cursor: pointer;
+}
+
+.footer-nav ul li {
+  display: inline;
+  padding-right: 13px;
+}
+
+.socials {
+  width: 90%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.icon i {
+  padding-left: 1rem;
+  color: #999999;
+}
+
+.icon i:hover {
+  color: #19ddc4;
+  cursor: pointer;
+}
+.footer-btn button {
+  border: solid #f8f5f5 2px;
+  color: #999999;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.footer-btn button:hover {
+  cursor: pointer;
+  background-color: #19ddc4;
+  color: white;
+  transition: 0.3s;
+}
+.subs-btn {
+  background-color: #19ddc4;
+  border: solid #f8f5f5 2px;
+  color: white;
+  border-radius: 5px;
+  width: 130px;
+  height: 39px;
+}
+.subs-btn:hover {
+  background-color: #52aea1;
+  transition: 0.3s;
+}
